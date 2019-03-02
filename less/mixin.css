@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*类的混入*/
+/*
+.w50 {
+  width: 50%;
+}
+.f_left {
+  float: left;
+}
+.f_right {
+  float: right;
+}
+
+.w50-f_left {
+  .w50();
+  .f_left();
+}
+*/
+/*函数混入*/
+.w50-f_left {
+  float: right;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -o-border-radius: 200px;
+  -ms-border-radius: 200px;
+}
+/*# sourceMappingURL=mixin.css.map */

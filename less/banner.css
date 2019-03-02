@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.wjs_banner .pc_img {
+  display: block;
+  height: 400px;
+  width: 100%;
+  /*-webkit-background-size: cover;*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.wjs_banner .m_img {
+  display: block;
+  width: 100%;
+}
+.wjs_banner .m_img img {
+  display: block;
+  width: 100%;
+}
+/*# sourceMappingURL=banner.css.map */

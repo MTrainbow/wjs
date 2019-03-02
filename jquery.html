@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li data-id="12">1</li>
+    <li>2</li>
+    <li>3</li>
+</ul>
+
+<a href="www.baidu.com" id="btn">按钮</a>
+<script src="lib/jquery/jquery.min.js"></script>
+<script>
+    // $(function ($) {
+    //     // $('ul li:first-child').css('background','red')
+    //     $('ul').on('click','li',function (e) {
+    //         console.log($(this)[0])
+    //     })
+    // })
+
+    $(function () {
+        var id = $('ul li:first-child').data('id')
+        // $('#btn').prop('search','id='+id)
+        $('#btn').css('href','?id='+id)
+        $('#btn').on('click',function () {
+            $(this).css('background','red')
+        })
+    })
+
+</script>
+</body>
+</html>

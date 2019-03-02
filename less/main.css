@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*类的混入*/
+/*
+.w50 {
+  width: 50%;
+}
+.f_left {
+  float: left;
+}
+.f_right {
+  float: right;
+}
+
+.w50-f_left {
+  .w50();
+  .f_left();
+}
+*/
+/*函数混入*/
+.w50-f_left {
+  float: right;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -o-border-radius: 200px;
+  -ms-border-radius: 200px;
+}
+/*变量*/
+a {
+  color: red;
+}
+.box {
+  color: red;
+}
+.wjs_banner .pc_img {
+  display: block;
+  height: 400px;
+  width: 100%;
+  /*-webkit-background-size: cover;*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.wjs_banner .m_img {
+  display: block;
+  width: 100%;
+}
+.wjs_banner .m_img img {
+  display: block;
+  width: 100%;
+}
+/*运算*/
+ul {
+  width: 500%;
+}
+ul li {
+  width: 20%;
+  color: #ffffff;
+  background: #262626;
+  /*内置函数*/
+  border-color: #990000;
+}
+/*# sourceMappingURL=main.css.map */
